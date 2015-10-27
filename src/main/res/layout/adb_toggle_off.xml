@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:id="@+id/appwidget_layout"
-        android:background="@color/on"
+        android:background="@color/off"
         >
 
         <TextView android:id="@+id/appwidget_text" android:layout_width="wrap_content"
@@ -16,7 +16,6 @@
             android:layout_centerVertical="true" android:text="ADB"
             android:textColor="#ffffff" android:textSize="24sp"
             android:layout_margin="0dp" android:contentDescription="@string/appwidget_text"
-            android:background="#09C"
             android:textStyle="bold"
             android:gravity="center" />
 
@@ -25,7 +24,6 @@
             android:layout_centerVertical="true" android:text="ON"
             android:textColor="#ffffff" android:textSize="24sp"
             android:layout_margin="0dp" android:contentDescription="@string/appwidget_text"
-            android:background="#09C"
             android:textStyle="bold"
             android:gravity="center" />
     </LinearLayout>

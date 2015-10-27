@@ -2,4 +2,6 @@
     <string name="app_name">ADB Toggle</string>
     <string name="appwidget_text">ADB</string>
     <string name="add_widget">Add widget</string>
+    <color name="on">#09C</color>
+    <color name="off">#F44336</color>
 </resources>
